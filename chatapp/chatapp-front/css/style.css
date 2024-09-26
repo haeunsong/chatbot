@@ -1,3 +1,10 @@
+.profile-img {
+  width: 50px; /* 원하는 너비 */
+  height: 50px; /* 원하는 높이 */
+  object-fit:fill; /* 이미지가 비율을 유지하며 영역을 덮도록 설정 */
+  border-radius: 50%; /* 이미지를 원형으로 유지 */
+}
+
 body{
     height: 100%;
   }
@@ -39,6 +46,7 @@ body{
     vertical-align: top;
     width: 92%;
    }
+
    .received_withd_msg p {
     background: #ebebeb none repeat scroll 0 0;
     border-radius: 6px;
@@ -54,7 +62,7 @@ body{
     font-size: 10px;
     margin: 8px 0 0;
   }
-  .received_withd_msg { width: 57%;}
+  .received_withd_msg { width: 57%; margin-bottom: 10px}
   .mesgs {
     float: left;
     padding: 30px 15px 0 25px;
