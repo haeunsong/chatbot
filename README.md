@@ -1,3 +1,5 @@
+# 기본적인 채팅 서버를 만들어봅니다.
+---
 ## 사용한 기술 스택
 - SpringBoot5.0 (netty server)
 - MongoDB
